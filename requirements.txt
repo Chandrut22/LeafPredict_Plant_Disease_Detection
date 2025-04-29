@@ -1,4 +1,4 @@
 django
 opencv-python
-tensorflow
+tensorflow-cpu
 keras
