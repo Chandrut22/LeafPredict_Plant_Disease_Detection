@@ -4,9 +4,10 @@ import json
 import numpy as np
 from django.conf import settings
 from django.shortcuts import render
-from tensorflow.keras.models import load_model
+# from tensorflow.keras.models import load_model
 from django.core.files.storage import FileSystemStorage
 from keras.preprocessing.image import load_img, img_to_array
+from keras.models import load_model
 
 categories = ['Pepper_bell_Bacterial_spot',
  'Pepper_bell_healthy',
