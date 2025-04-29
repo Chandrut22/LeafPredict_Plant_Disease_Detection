@@ -2,3 +2,4 @@ django
 opencv-python
 tensorflow-cpu
 keras
+whitenoise
